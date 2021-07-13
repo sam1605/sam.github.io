@@ -1,0 +1,82 @@
+*{
+    margin: 100;
+    padding: 10;
+    
+}
+body{
+    min-height: 100vh;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    border: 2px brown;
+    background-image:  url(images/homebg2.png);
+    background-position: auto;
+    background-size: cover;
+}
+.logo img{
+    width: 150px;
+}
+nav{
+    display:flex;
+    padding: 2% ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: rgb(2, 5, 224);
+    display:block;
+    margin: auto;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+    transition: 0.5s;
+}
+.content{
+    width:fit-content;
+    display: inline;
+    color: rgb(155, 0, 78);
+    position: relative;
+    text-align: center;
+    font-size: 35px;
+}
+.inst{
+    padding-top: 1%;
+    color: rgb(48, 25, 4);
+    font-family: monospace;
+    font-size: 25px;
+
+}
+.hbtn{
+    border: 1px solid black;
+    padding: 12px 30px;
+    display: inline-block;
+    text-decoration: none;
+    background: transparent;
+    position: relative;
+    color: rgb(0, 0, 0);
+
+}
+.hbtn:hover{
+    border: 1px solid black ;
+    background: rgb(0, 33, 46);
+    transition: 1s;
+    color: rgb(255, 255, 255);
+}

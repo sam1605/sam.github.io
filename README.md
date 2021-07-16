@@ -6,6 +6,6 @@ Front-End: HTML,CSS <br>
 Back-End: PHP <br>
 Database: MySQL <br>
 
-<br>Github Repo: 
-<br>Video Link:
+<br>Github Repo: https://github.com/sam1605/sam.github.io
+<br>Video Link: https://youtu.be/CT3cKSrA5u4
 <br>**The Spark's Foundation:** https://www.thesparksfoundationsingapore.org/

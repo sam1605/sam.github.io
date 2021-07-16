@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>About Us</title>
-    <link rel="stylesheet" href="about.css" />
+    <title>About </title>
+    <link rel="stylesheet" href="ab.css" />
+    <?php
+    ?>
   </head>
   <body>
     <section class="header">
       <nav>
-        <a class="logo" href="index.html"><img src="Images/logo3.png" /></a>
+        <a class="logo" href="index.php"><img src="Images/logo3.png" /></a>
         <div class="nav-links">
           <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="customer.html">CUSTOMERS</a></li>
-            <li><a href="trans.html">TRANSACTIONS</a></li>
-            <li><a href="About us.html">ABOUT US</a></li>
+          <li><a href="index.php">HOME</a></li>
+            <li><a href="customer.php">CUSTOMERS</a></li>
+            <li><a href="trans.php">TRANSACTIONS</a></li>
+            <li><a href="About us.php">ABOUT US</a></li>
           </ul>
         </div>
       </nav>
@@ -41,6 +43,18 @@
               <img src="Images/link.png" />
               <a href="https://www.linkedin.com/in/sam-aditya-9000171a9"
                 >LinkedIn Profile</a
+              >
+            </li>
+            <br>
+            <li>
+              <img src="Images/github.png" />
+              <a href="https://github.com/sam1605">GitHub</a
+              >
+            </li>
+            <br>
+            <li>
+              <img src="Images/ig.png" />
+              <a href="https://www.instagram.com/aditya_sam05/">Instagram</a
               >
             </li>
           </ul>

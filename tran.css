@@ -9,7 +9,7 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
     border: 2px brown;
-    background-image:  url(images/customer.png);
+    background-image:  url(images/trans.png);
     background-position: auto;
     background-size: cover;
 }
@@ -41,7 +41,7 @@ nav{
     content: '';
     width: 0%;
     height: 2px;
-    background: rgb(0, 255, 170);
+    background: rgb(240, 0, 0);
     display:block;
     margin: auto;
 }
@@ -50,23 +50,32 @@ nav{
     transition: 0.5s;
 }
 .content{
-    color: rgb(0, 107, 126);
+    color: rgb(0, 0, 0);
+    position:relative;
     text-decoration: chartreuse;
     text-align: center;
     font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Times New Roman', Times, serif
 }
-.tp2{
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    display: inline-block;
-    word-spacing: 2px;
-    column-gap: 5px;
-}
-.tp1{
+table{
+	letter-spacing: 1.2px;
     margin-left: auto;
     margin-right: auto;
+    border:solid  black 1px ;
+    
+    
+    
+}
+th{
+    color: rgb(31, 21, 21);
+    border:solid  rgb(0, 0, 0) 2px ;
+    padding: 1px;
     text-align: center;
     
+}
+td{
+    color: rgb(29, 11, 11);
+    border:solid  black 2px ;
+    padding: 1px;
+    text-align: center;
 }

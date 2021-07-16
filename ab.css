@@ -1,17 +1,20 @@
 *{
-    margin: 90;
+    margin: 100;
     padding: 10;
+    
 }
 body{
-    background-image:  url(images/aboutbg.png);
-    background-position: auto;
-    background-size: cover;
+    min-height: 100vh;
+    position: relative;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
     border: 2px brown;
+    background-image:  url(images/aboutbg1.png);
+    background-position: center;
+    background-size: cover;
 }
 .logo img{
-    width: 100px;
+    width: 150px;
 }
 nav{
     display:flex;
@@ -19,6 +22,7 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+
 .nav-links{
     flex: 1;
     text-align: right;
@@ -30,14 +34,14 @@ nav{
     position: relative;
 }
 .nav-links ul li a{
-    color: rgba(94, 35, 1, 0.897);
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 .nav-links ul li::after{
     content: '';
     width: 0%;
     height: 2px;
-    background: rgb(255, 132, 18);
+    background: rgb(7, 110, 10);
     display:block;
     margin: auto;
 }
@@ -45,17 +49,11 @@ nav{
     width: 100%;
     transition: 0.5s;
 }
-.conhead{
-    font-size: 50px;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-    font-style: bold;
-}
 .aboutus{
     text-align: center;
     padding-top: 1%;
     font-size: 25px;
-    color: rgb(39, 33, 33);
+    color: rgb(0, 0, 0);
     font-style: normal;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -78,4 +76,10 @@ nav{
     text-decoration: wavy;
     text-align: center;
     color: black;
+}
+.conhead{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-style: bold;
 }

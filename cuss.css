@@ -9,8 +9,8 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
     border: 2px brown;
-    background-image:  url(images/homebg2.png);
-    background-position: auto;
+    background-image:  url(images/cuss.png);
+    background-position: center;
     background-size: cover;
 }
 .logo img{
@@ -41,7 +41,7 @@ nav{
     content: '';
     width: 0%;
     height: 2px;
-    background: rgb(2, 5, 224);
+    background: rgb(240, 0, 0);
     display:block;
     margin: auto;
 }
@@ -50,33 +50,39 @@ nav{
     transition: 0.5s;
 }
 .content{
-    width:fit-content;
-    display: inline;
-    color: rgb(155, 0, 78);
-    position: relative;
-    text-align: center;
-    font-size: 35px;
-}
-.inst{
-    padding-top: 1%;
-    color: rgb(48, 25, 4);
-    font-family: monospace;
-    font-size: 25px;
-
-}
-.hbtn{
-    border: 1px solid black;
-    padding: 12px 30px;
-    display: inline-block;
-    text-decoration: none;
-    background: transparent;
-    position: relative;
     color: rgb(0, 0, 0);
-
+    position:relative;
+    text-decoration: chartreuse;
+    text-align: center;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(46, 3, 34);
 }
-.hbtn:hover{
-    border: 1px solid black ;
-    background: rgb(0, 33, 46);
-    transition: 1s;
-    color: rgb(255, 255, 255);
+.ins{
+    color: rgb(41, 5, 5);
+}
+table{
+	letter-spacing: 1.2px;
+    font-style: italic;
+    
+    margin-left: auto;
+    margin-right: auto;
+    border:solid  black 1px ;   
+}
+th{
+    border:solid  black 2px ;
+    padding: 1px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+}
+tr{
+    column-gap: 5px;
+    column-width: 10%;
+}
+td{
+    color: rgb(0, 0, 0);
+    border:solid  black 2px ;
+    padding: 1px;
+    text-align: center;
 }
